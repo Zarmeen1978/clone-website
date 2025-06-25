@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+.dark {
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+  color: white;
+}
+
+/* Bootstrap overrides */
+.dark .card {
+  background-color: rgb(30 41 59);
+  color: white;
+}
+
+.dark .navbar {
+  background-color: rgb(15 23 42) !important;
+}
+
+.dark .form-control {
+  background-color: rgb(30 41 59);
+  color: white;
+  border-color: rgb(51 65 85);
+}
+
+.dark .form-control:focus {
+  background-color: rgb(30 41 59);
+  color: white;
+}
